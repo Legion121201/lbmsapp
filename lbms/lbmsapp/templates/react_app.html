@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your React App</title>
+    <!-- Include any required CSS or other dependencies here -->
+</head>
+<body>
+    <a href="/app/book-dashboard">Go to Book Dashboard</a><br>
+    <a href="/app/signup-form">Go to Signup Form</a><br>
+    <a href="/app/user-dashboard">Go to User Dashboard</a>
+    <div id="root"></div>
+    <!-- Include your React app's JavaScript bundles -->
+    <script src="{% static '../node_modules/react/App.js' %}"></script>
+    <script src="{% static '../node_modules/react/BookDashboard.js' %}"></script>
+    <script src="{% static '../node_modules/react/SignupForm.js' %}"></script>
+    <script src="{% static '../node_modules/react/UserDashboard.js' %}"></script>
+</body>
+</html>

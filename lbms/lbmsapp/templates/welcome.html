@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Our Library</title>
+</head>
+<body>
+   
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+            margin-top: 50px;
+        }
+        
+        p {
+            font-size: 18px;
+            color: #666;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <h1>Welcome to Our Library</h1>
+    <p>Explore and order books from our collection.</p>
+   
+    {% comment %} <a href="http://localhost:8000/" class="btn">Lets Go!</a><br> {% endcomment %}
+    <a href="/app/">Go to React App Home</a><br>
+    <a href="/app/book-dashboard">Go to Book Dashboard</a><br>
+    <a href="/app/signup-form">Go to Signup Form</a><br>
+    <a href="/app/user-dashboard">Go to User Dashboard</a>
+    <div id="root"></div>
+</body>
+</html>
